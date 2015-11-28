@@ -1,0 +1,895 @@
+[{
+	"likes": 1,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Tic-Hack-Toe",
+	"blurp": "TicTacToe in Haskell",
+	"description": "Tic-Hack-Toe Bored, tired, or just need a break? Play a quick game of tic tac toe against your computer in the command line! Programmed in Haskell with :heart: at Hack the North 2015. Usage $ cabal update\n$ cabal install Tic-Tac-Toe\n$ Tic-Tac-Toe\n Name Tic-Hack-Toe. Get it? Because the Tic-Tac-To game was made at a hackathon and also because it was made in Haskell :sunglasses:. Built With haskell Try it out github.com hackage.haskell.org",
+	"technologies": ["haskell"],
+	"authors": [{
+		"username": "2016rshah",
+		"wins": 1,
+		"projects": 8,
+		"hackathons": 5,
+		"name": "Rushi Shah",
+		"description": "",
+		"technologies": ["android", "hardware", "web"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Custom Robo AR",
+	"blurp": "Custom Robo AR allow for users to be introduced to augmented reality through the experiences of a simple game.",
+	"description": "custom-robo-ar Custom Robo AR is an augmented reality video game inspired by the \"Custom Robo\" series. This was built with Unity using the Vuforia SDK and the AttackBot assets at Hack the North 2015. Built With c# unity Try it out github.com",
+	"technologies": ["c#", "unity"],
+	"authors": [{
+		"username": "tjadams",
+		"wins": 0,
+		"projects": 5,
+		"hackathons": 4,
+		"name": "Tyler Adams",
+		"description": "http://www.dare.io",
+		"technologies": ["java", "android"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Picle",
+	"blurp": "Creating a global community of friendly photo-sharing competition",
+	"description": "Inspiration The inspiration behind Picle was based off of Mark Zuckerberg\u0027s Facemash, using the concept of comparing two image with one another and having users vote on which one they prefer. (However, we weren\u0027t going to compare the \"hotness\" women against other women as that is offensive and degrading). What it does Picle features user-uploaded photographs under specific categories, which other users are able to vote on which image they prefer. The different categories are different competitions, where users are able to make their way on top of the leader board if they get the highest number of votes. How I built it Bootstrap and jQuery front-end web application supported with the Ruby on Rails back-end framework, implementing user signup, login/logout, photo upload, and db manipulation. Challenges I ran into We sometimes struggled to keep track of our code management and ran into conflicts when merging our changes. Additionally, we ran into road blocks when it came to deploying our web application with PostreSQL. Accomplishments that I\u0027m proud of \"I was impressed by how much we got done in a short period of time. Happy that we were able to deploy a functional and engaging app without making any compromises regarding technologies used or features provided\" - Daniel \"We were able to set up a functional website, hacked together from scratch and deploy with PostgreSQL in the span of a weekend. Loved the atmosphere and the attitudes of fellow hackers\" - Chris \"Able to set up a concise front-end for the website this weekend using Bootstrap and jQuery \" - Sahibjot “I’m really proud that I actually got in to Hack the North, especially for being my first time and for being a non-technical person. Although, I wasn’t able to contribute to the development of the website itself, I was proud that I could play a role in creating the written content for the site, designing our logo, critiquing and giving my opinions about the website design, and writing and presenting the final pitch.” - Danielle What I learned From participating in Hack the North, we gained valuable relationships with one another, as well as relationships, friendships, and a larger network with the other participants and sponsors. We learned how to work well together as a team under pressure and can apply those skills to our university careers as well as in the workforce. From our non-technical co-founder, she leaned about different codes, ELO, JavaScript, and more. If was a difficult 48 hours, so learning how to stay awake and work together under stress was a good experience and we can apply what we learned to future hacathonks. What\u0027s next for Picle Picle plans on expanding to Android and iOS application platforms. As well, we plan on improving the mobile version of our website, to make it as simple and user-friendly as possible. Built With ruby-on-rails html5 css3 jquery haml Try it out github.com",
+	"technologies": ["ruby-on-rails", "html5", "css3", "jquery", "haml"],
+	"authors": [{
+		"username": "DanielKou",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Daniel Kou",
+		"description": "",
+		"technologies": ["android", "javascript", "java", "ios", "jquery", "html5", "c", "c++"]
+	}, {
+		"username": "ChrisWissmach",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Chris Wissmach",
+		"description": "",
+		"technologies": ["javascript", "jquery", "css", "ruby-on-rails", "html5", "python"]
+	}, {
+		"username": "Sahibjot",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 3,
+		"name": "Sahibjot Saggu",
+		"description": "",
+		"technologies": ["javascript", "php", "jquery", "css", "html5", "python"]
+	}, {
+		"username": "DanielleWong",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Danielle Wong",
+		"description": "Co-President at Startup Laurier, Marketing Lead at Lani, Communitech Campus Ambassador",
+		"technologies": ["photoshop"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Baltimore Hackathon",
+	"winner": false,
+	"name": "WaterBoard",
+	"blurp": "Catching rain water in a barrel? Use that water smarter.",
+	"description": "My own rain water harvesting system has been great, however it can easily run dry after a few weeks without rain - I think it can consume and use water smarter. Controls the out flow to the garden of caught rain water in the catch tanks in a smart way, based on many factors, such as how much water is left in the tanks, when the next rain will be and how much moisture is in the ground. Using an Arduino to read from moisture sensors, a sonar for water level and a rain sensor we control when to pump water into the garden. Reading sensors, building apps. We were able to complete a final package for the sensor and pump. Software is hard. Built With arduino",
+	"technologies": ["arduino"],
+	"authors": [{
+		"username": "VinylFox",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 3,
+		"name": "Shea Frederick",
+		"description": "Love working with Open Data",
+		"technologies": ["socrata-open-data", "leaflet.js", "javascript", "react", "sencha", "android", "ios", "web"]
+	}, {
+		"username": "schaki",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Sayan Chaki",
+		"description": "",
+		"technologies": ["javascript", "html5", "python"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "TechCrunch Disrupt SF 2015",
+	"winner": false,
+	"name": "Cruizing Club",
+	"blurp": "Validating driving behavior to retain value of your rental cars",
+	"description": "With the growth of peer-to-peer marketplaces such as AirBnB, there is a lack of car sharing. Traditionally, cars cannot be monitored throughout their usage and how they are driven. Now any car built after 1996 can be connected to Vin.li using the OBD connector to monitor car telemetry and diagnostics. This information is vital for the cars value and their owners. Any car rental agency or car owner whom wishes to rent their car can only rent to reputable and good drivers as to maintain their car\u0027s condition. Built With javascript node.js ruby jquery vinli weather-underground Try it out cruizing.club",
+	"technologies": ["javascript", "node.js", "ruby", "jquery", "vinli", "weather-underground"],
+	"authors": [{
+		"username": "Rutkat",
+		"wins": 0,
+		"projects": 7,
+		"hackathons": 5,
+		"name": "Tom Rutka",
+		"description": "",
+		"technologies": ["javascript", "jquery", "css", "angular.js", "photoshop", "bootstrap"]
+	}, {
+		"username": "quinnie",
+		"wins": 0,
+		"projects": 4,
+		"hackathons": 4,
+		"name": "Quynh Pham",
+		"description": "Founder of Reachoo \u0026 TourNative",
+		"technologies": ["java", "ruby-on-rails", "twilio"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "HackSC Fall 2014",
+	"winner": false,
+	"name": "Esc3 (Escube)",
+	"blurp": "An infinite runner for Google Cardboard",
+	"description": "We set out to make a Virtual Reality game where players could have a truly 1:1 action/response experience. Most VR games use keyboards, controllers, or clunky motion capture devices;our game (Esc3), only uses the Google Cardboard headset, a small VR peripheral which can be acquired for as little as $5 and works with any Android phone. The controls for the game are intuitive - jump to jump, lean to lean, etc. Built With blender c# google-cardboard unity android hardware Try it out nebware.com",
+	"technologies": ["blender", "c#", "google-cardboard", "unity", "android", "hardware"],
+	"authors": [{
+		"username": "benhannel",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Ben Hannel",
+		"description": "",
+		"technologies": ["javascript", "php", "java", "jquery", "css", "html5"]
+	}, {
+		"username": "keirp",
+		"wins": 0,
+		"projects": 4,
+		"hackathons": 4,
+		"name": "Keiran Paster",
+		"description": "",
+		"technologies": ["ios", "mac", "web"]
+	}, {
+		"username": "techoholic",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Tanner Glantz",
+		"description": "",
+		"technologies": ["android", "java", "raspberry-pi", "html5", "css"]
+	}, {
+		"username": "Storm_Infinite",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 0,
+		"name": "Tias Webster",
+		"description": "",
+		"technologies": ["android", "java", "mac", "windows"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "WildHacks 2014",
+	"winner": false,
+	"name": "Cupcake Clicker",
+	"blurp": "Click with your friends!",
+	"description": "The addictive idle game experience is brought online. Built With javascript node.js",
+	"technologies": ["javascript", "node.js"],
+	"authors": [{
+		"username": "DavidKim",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 2,
+		"name": "David Kim",
+		"description": "",
+		"technologies": ["web", "windows"]
+	}, {
+		"username": "Grygoree",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 1,
+		"name": "Grygoree",
+		"description": "",
+		"technologies": ["web"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Maven",
+	"blurp": "Media analytics of Instagram users with social influence provided to companies",
+	"description": "Inspiration What it does How I built it The social media influencer user GUI is an iOS app and the company facing platform Challenges I ran into Scope of the project for the hackathon left us with not enough time to meet all the goals that we had set out to achieve at the beginning of the hackathon Accomplishments that I\u0027m proud of Large-scale infrastructure to process the wealth of data obtained from various channels What I learned What\u0027s next for Maven Expand into more platforms and develop deeper analytic abilities on key axes that determine success of marketing campaigns. Built With ios swift python instagram paypal indico sketch parse Try it out github.com",
+	"technologies": ["ios", "swift", "python", "instagram", "paypal", "indico", "sketch", "parse"],
+	"authors": [{
+		"username": "arunrawlani",
+		"wins": 1,
+		"projects": 3,
+		"hackathons": 4,
+		"name": "Arun Rawlani",
+		"description": "",
+		"technologies": ["ios", "sketch", "design", "parse", "android", "xcode", "mobile-deveopment"]
+	}, {
+		"username": "atg_abhishek",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 9,
+		"name": "Abhishek Gupta",
+		"description": "",
+		"technologies": ["android", "web", "windows"]
+	}, {
+		"username": "AndiRayhan",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 4,
+		"name": "Andi Rayhan Chibrandy",
+		"description": "",
+		"technologies": ["java", "python", "c", "arduino", "android"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "TechCrunch Disrupt SF 2015",
+	"winner": false,
+	"name": "BetterDriver.Club",
+	"blurp": "Save gas \u0026 become a better driver while competing with others for cash",
+	"description": "Inspiration We all need to become more economical drivers, however most of us forget that the moment we get in our car. We thought that rewarding users with actual money will be enough of an incentive to turn them into better drivers. What it does Every month you can enter a contest to become a Better Driver than the rest of our users. To enter you pay $5. For entire month our app analyses every trip you take looking at parameters such as: fuel economy, breaking and accelerating style, efficiency and assigns a score to it. At the end of the month we average all your scores, users who scored in the top 50% of our users get their $5 back and another $5 bonus, the bottom half walks away with nothing. How I built it The application is a native iOS app powered by data from users Vinli device, our backend is hosted on Parse.com platform and we use Mastercard API for payments. Challenges I ran into Time pressure, the we really wanted to build a complete app, but turns out: 2 people * 24hrs * numerous cups of coffee \u003d working app! :) Accomplishments that I\u0027m proud of We built a working prototype of an app in less than 24hrs in a team of just two people What I learned We\u0027ve learned that by combining a couple of API\u0027s we could create something that can actually change people\u0027s driving habits. We\u0027ve surveyed a number of people during the hackathon and great majority said they\u0027d definitely use our app. What\u0027s next for BetterDriver.Club We really hope we can submit the app to the AppStore within next couple of weeks. First and foremost we\u0027ll need to make sure the app looks decent - we already found a designer. Second we need to make sure all the integrations work as we want them to, we\u0027ll talk to the API partners afterwards. Built With ios parse vinli mastercard Try it out betterDriver.club",
+	"technologies": ["ios", "parse", "vinli", "mastercard"],
+	"authors": [{
+		"username": "Tuszy",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 2,
+		"name": "Michał Tuszyński",
+		"description": "",
+		"technologies": ["android", "java", "ios", "ruby-on-rails", "arduino", "swift"]
+	}, {
+		"username": "dusker",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Piotr Tuszynski",
+		"description": "Mobile hacker",
+		"technologies": ["ios", "android", "cocoa", "cocoa-touch", "java"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Maps as Art | Summer Jam",
+	"winner": false,
+	"name": "Mapathon - mapping hackathons around the world",
+	"blurp": "visualizes hackathons happening around the world in the future and the past using Google Maps API",
+	"description": "mapathon For ChallengePost \"Maps As Art\" online hackathon submission What it does: Visualizes Hackathons around the world (due to Google Maps Geocoding limits, I can only have around 10 to 20 Hackathons appear on the map at one time) when year and month is specified Currently grabbing data from : Hackalist : http://www.hackalist.org/ Considering : Hackathon.io Open Data Day Map : https://docs.google.com/spreadsheets/d/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/edit#gid\u003d11 (Note the above already has a map with hackathons) Built With html google-maps css javascript json hackalist-api google-geocoding Try it out mding5692.github.io github.com",
+	"technologies": ["html", "google-maps", "css", "javascript", "json", "hackalist-api", "google-geocoding"],
+	"authors": [{
+		"username": "lding43",
+		"wins": 0,
+		"projects": 7,
+		"hackathons": 16,
+		"name": "Michael Ding",
+		"description": "Fullstack Web Developer using MEAN stack and previously LAMP stack",
+		"technologies": ["javascript", "php", "java", "jquery", "css", "html5", "python", "twilio", "angular.js", "node.js", "django", "flask", "mongodb", "mysql", "laravel", "express.js", "c", "assembly", "r", "google-maps"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "MonkeyBars OpenBuild: Lacuna",
+	"winner": true,
+	"name": "CampFire",
+	"blurp": "CampFire is a social media application that uses iBeacons to socialize with rooms throughout a building.",
+	"description": "Inspiration We wanted to see people in the same room as us to connect with them. It then developed to also seeing what\u0027s going on in nearby rooms via status messages. What it does It utilizes iBeacon technology in order to connect people in similar proximities. Each Room, designated by an iBeacon, has it\u0027s own social network page to post statuses and see who else is in the room. You can then check out the other users in the room and see what they\u0027re working on, and go interact and meet them. It\u0027s a great way to see what\u0027s going on in rooms around you and connect to people you normally wouldn\u0027t. How I built it Using Parse as a backend, and iOS front-end. We also integrated the Ray SDK a little bit to interact with the bluetooth iBeacons. Challenges I ran into iBeacons had very terrible documentation and support, so utilizing them was a struggle. Accomplishments that I\u0027m proud of Making it to the end. What I learned Parse simply makes a public REST API for your secure data. Don\u0027t trust it. What\u0027s next for CampFire Full iBeacon support and admin accounts to add beacons to a building and monitor users in the space. Built With ios parse Try it out github.com",
+	"technologies": ["ios", "parse"],
+	"authors": [{
+		"username": "turkinator7",
+		"wins": 1,
+		"projects": 1,
+		"hackathons": 0,
+		"name": "Matthew Turk",
+		"description": "",
+		"technologies": ["ios", "css", "html5"]
+	}, {
+		"username": "andonigarcia",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 1,
+		"name": "Andoni Garcia",
+		"description": "I\u0027m a senior in college. I work mostly with Python (Flask), but am getting into Java development and iOS dev.",
+		"technologies": ["python", "flask", "html5", "css3", "amazon-web-services"]
+	}, {
+		"username": "lcarvajal",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 2,
+		"name": "Lukas Carvajal",
+		"description": "From Miami. Spent a year studying ecom, cs, and mathematics at Florida State and a year studying math at the Free University of Berlin.",
+		"technologies": ["android", "javascript", "java", "ios", "css", "ruby-on-rails", "html5", "c++"]
+	}, {
+		"username": "andreydanil",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 1,
+		"name": "Andrey Danilkovich",
+		"description": "",
+		"technologies": ["javascript", "php", "ios", "html5", "c++", "objective-c", "vba", "python", "css", "json", "mysql"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "",
+	"winner": false,
+	"name": "HackCuu",
+	"blurp": "Recopila toda la informacion de las diferentes plataformas de gobierno y le muestra al usuario lo que necesita.",
+	"description": "Inspiration The need to innovate What it does give the government the comms platform it needs How I built it on a web server with crawlers. Challenges I ran into not enough tacos Accomplishments that I\u0027m proud of dormi 2 horas What I learned 42 What\u0027s next for HackCuu the world Built With javascript css python php jquery html5 css3 html bootstrap materialize sqlite Try it out github.com",
+	"technologies": ["javascript", "css", "python", "php", "jquery", "html5", "css3", "html", "bootstrap", "materialize", "sqlite"],
+	"authors": [{
+		"username": "Rix",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Ricardo Trevizo",
+		"description": "",
+		"technologies": ["javascript", "php", "java", "ios", "jquery", "css", "html5", "python"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Airchat",
+	"blurp": "The best way to get real-time feedback and sentimental analysis on live-streams",
+	"description": "Inspiration Watching the Hack the North livestream, we couldn\u0027t help but notice a lack of interaction and understanding with the chat on YouTube. We thought to ourselves: what if there was a way to make the conversation more engaging by automatically looking at the context of every chat message? What it does Airchat lets users chat on livestreams and provides real-time sentiment analysis to show how all the viewers are feeling as the event goes on. We also implemented a mobile interface to bring physical event attendees in the same conversation as online viewers How we built it We used firebase to handle all our server-side data with a minimal back-end, using node js and express to compliment it. The sentiment analysis was completed by sending an asynchronous request to Indico\u0027s machine learning API. We then show a visual \u0027heatmap\u0027 of sentiment using pure javascript visual elements. Challenges we ran into Considering how best to visualize the data we received and how often to show the changes (balancing the fine line between engagement and over-stimulation). We also ran in to a few issues with YouTube\u0027s limited live-streaming API, as well as the lack of documentation/developer tools on other platforms (Twitch.tv, Livestream, etc). Accomplishments that we\u0027re proud of Creating a truly browser and mobile responsive web app that optimized for speed, engagement and interactivity. We were especially impressed at how well the sentiment visualizations worked, and how stimulating they were to us as end-viewers. What we learned How a simple addition such as sentiment analysis provides a deeper level of engagement and value to both the users/commenters, as well as the event hosts themselves. What\u0027s next for Airchat Setting it out in the wild for the Hack the North closing ceremony! Built With angular.js firebase indico angular-fire html5 css3 youtube bootstrap node.js Try it out air-chat.co",
+	"technologies": ["angular.js", "firebase", "indico", "angular-fire", "html5", "css3", "youtube", "bootstrap", "node.js"],
+	"authors": [{
+		"username": "tanatornn96",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 1,
+		"name": "Tanatorn Nantawinyoo",
+		"description": "",
+		"technologies": ["android", "javascript", "php", "java", "jquery", "css", "html5"]
+	}, {
+		"username": "tenergy05",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Oliver Fei",
+		"description": "",
+		"technologies": ["android", "javascript", "java", "css", "windows-phone", "html5"]
+	}, {
+		"username": "shubs",
+		"wins": 1,
+		"projects": 7,
+		"hackathons": 8,
+		"name": "Shubhagata Sengupta",
+		"description": "",
+		"technologies": ["front-end", "design", "ruby-on-rails", "javascript", "python", "android", "web", "windows"]
+	}, {
+		"username": "Davidchoi",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "David Choi",
+		"description": "",
+		"technologies": ["javascript", "css", "html5"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "MHacks 6",
+	"winner": false,
+	"name": "The Last Taco",
+	"blurp": "Only one taco left",
+	"description": "The year is 3030, also known as 110 years after the passing of the last survivor of the zombie apocalypse, 30 years after the zombie horde evolved their diet from human flesh to Hard Shell 100% Pure Beef Tacos and the year where you the last surviving taco take your last stand. Will you be soft-shelled and let yourself be eaten or will you stand your ground and not let your taco friends be eaten in vain. The choice is yours. Technologies Incorporated Oculus Rift Electronic Arts API Objectives of the game and its players The Last Taco is a game simulation for two or more players. One player operates the Oculus Rift and is referred to as the defender. As the name describes, the defender\u0027s objective is to maintain his or her survival from the simulated zombies.Those who are not the defender are referred to as the attacker(s) and they may log into our web app and are provided a birds-eye view of the defender\u0027s environment through the Oculus Rift. From there, the attacker(s) may deploy the simulated zombies that the defender sees at locations per their choosing. This game encourages attacker(s) to optimize strategy and teamwork to overwhelm the defender. As such, it forces the defender to be persistant and to exercise his or her sharp reflexes. How it works The players that are known as the attackers operate a Javascript and HTML 5 \u0026 CSS encoded web app while the defender utilizes graphics and movements that are displayed through the Oculus Rift with C# coding and details from Unity. Sending data back and forth from the defender and the attacker(s) takes advantage of Electronic Art\u0027s API and is the backbone of our player to player interaction system. Challenges that we ran into One of the primary challenges that we faced was matching the location of where the zombies will be stationed on the attacker\u0027(s) devices with the general area of deployment on the defender\u0027s Oculus Rift. Another challenge that had equal or greater priority was matching the direction and path of the zombies on the Oculus Rift with the icons that represented the zombies on the attacker\u0027(s) devices. Overall, a great majority of our challenges came from establishing relationship between the device(s) of the attacker(s) and the Oculus Rift of the defender. Challenges outside the boundaries of device communication involved the decision on whether to incorporate the Myo into our project. We ran several tests with the Myo, however, despite it being an unique addition to the game we concluded that the movements that the player would make would not be comfortable and may be harmful after long exposure and periodic sensitivity of the Myo would cause frustration. Accomplishments that we are fond of We are very content with our access to a variety of APIs and hardwares and how we incorporated a variety of these into our game. Our fondness towards this project also regards how we were able to exercise teamwork and communication despite us being strangers at the start of this challenge. Further accomplishments also include on how we are quite satisfied with the skills and knowledge that we gained throughout this journey in game development and the brief yet strong taste of sharing our project to others. What we learned The knowledge and skills that we gained through our participation is quite bountiful, however, one of the more important gains that we took away from this project was that, games like ours and all other experiences regarding game development is so focused on iteration that it forced us to be selfless, to the best of our abilities incorporate all feedback and suggestions, and to be audience orientated. Built With c# oculus unity html5 css3 javascript ea-pathfinder amazon-web-services node.js Try it out TheLastTa.co",
+	"technologies": ["c#", "oculus", "unity", "html5", "css3", "javascript", "ea-pathfinder", "amazon-web-services", "node.js"],
+	"authors": [{
+		"username": "aviros",
+		"wins": 1,
+		"projects": 3,
+		"hackathons": 3,
+		"name": "Antoni Virós",
+		"description": "",
+		"technologies": ["android", "javascript", "php", "java", "jquery", "css", "html5", "c++", "c"]
+	}, {
+		"username": "bmoix",
+		"wins": 1,
+		"projects": 5,
+		"hackathons": 4,
+		"name": "Bernat Moix",
+		"description": "",
+		"technologies": ["android", "java", "c++", "python", "wololo", "javascript"]
+	}, {
+		"username": "HaoJ",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Hao Jin",
+		"description": "",
+		"technologies": ["javascript", "html5", "c#"]
+	}, {
+		"username": "RyanNutella",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Ryan Xu",
+		"description": "",
+		"technologies": ["java", "ios"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "HackIllinois 2015",
+	"winner": true,
+	"name": "metropolipin",
+	"blurp": "Traveling in your friends\u0027 footsteps: Feel like a local in cities around the world with hands-free social check-ins",
+	"description": "Summary MetropoliPin is an app for travelers and explorers who want to share their knowledge and leverage their social networks to find travel advice, but don\u0027t want the distraction of having to pull out a mobile device to mark where they\u0027ve been. The ease of contributing to MetropoliPin\u0027s crowdsourced data means that it will be easier than ever before to plan a day out in town or a vacation in a foreign city based on the advice of people you know and trust. The Headset \u0026 Dropping Pins MetripoliPin is integrated with the NeuroSky MindWave Mobile EEG reader headset, which uses dry, non-intrusive connection points to read your brain wave data and transmit it to our back-end system. Thus instead of needing to pull out a phone to mark interesting places you encounter throughout the day, you simply need to blink deliberately and MetropoliPin will drop a pin at your current location. Then later you can go back through the pins you have dropped and leave a brief rating so you can remember how positive or negative the experience was and share this information with friends. Trip Planning When you want to go on vacation or just explore your own backyard, you can use your friends\u0027 pins to guide your way. Search for a city, then a listing of where your friends have been will appear, along with their ratings. You can select a number of these pins for your trips, supplemented by suggestions from Yelp. If you set up a schedule of when you want to visit each pin, Twilio will send a reminder text every time that you need to move on to the next pin. Technologies Our system has two applications, a Ruby on Rails mobile web app hosted on Heroku and a native Android app. The core of the user interface is located in the Ruby on Rails app, along with all of our data modeling, while the Android app is used for connecting the NeuroSky headset to the internet. We use the Google maps API for graphically representing the pins, the Yelp API for finding local places, and the Twilio API for sending reminder texts. Future Improvements We were supposed to be on the Hackathon TV program at HackDFW, but the 1 inch of snow in Dallas was too much for our airline, and after delaying us for over 5 hours in the airport, they canceled our flight. So, we drove to HackIllinois from the Detroit airport (DTW) early Saturday morning, arriving to the event 12 hours late. Because we had 24 hours instead of 36, we ended up with a lot of ideas for future improvements that we simply did not have time to complete this time around. These include: Integration with Pebble so the user can confirm that they intended to drop a pin and can immediately rate the place instead of waiting until they get back on the mobile web app Recording more elaborate information about your friends\u0027 experiences at these locations, including a short audio clip where they describe the place or a graphical representation of the brain waves your friends experienced at the place Adding a \"sub pin\" and \"super pin\" concept. Sub pins could be as fine grained as the location of a specific statue within a park, while super pins would be locations like entire parks. Super pins would correspond to the businesses indexed on Yelp. Built With android heroku ruby-on-rails twilio yelp google-places google-maps neurosky Try it out metropolipin-hackillinois.herokuapp.com",
+	"technologies": ["android", "heroku", "ruby-on-rails", "twilio", "yelp", "google-places", "google-maps", "neurosky"],
+	"authors": [{
+		"username": "eronhistorion",
+		"wins": 5,
+		"projects": 9,
+		"hackathons": 9,
+		"name": "Erin Hoffman",
+		"description": "",
+		"technologies": ["hardware", "web", "android", "pebble", "venmo", "ruby-on-rails", "neurosky", "twilio", "smartthings", "fitbit", "arduino", "google-places", "google-maps", "uber"]
+	}, {
+		"username": "mcdonaldca",
+		"wins": 5,
+		"projects": 7,
+		"hackathons": 6,
+		"name": "Caitlin McDonald",
+		"description": "",
+		"technologies": ["web", "ruby-on-rails"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "HackTX",
+	"winner": false,
+	"name": "KVRX Radio",
+	"blurp": "KVRX Radio, none of the hits, all of the time.",
+	"description": "Inspiration: there was no KVRX Radio app! What it does: Streams music live with artist info! How we built it: Android Built With java android Try it out github.com",
+	"technologies": ["java", "android"],
+	"authors": [{
+		"username": "oscarflores",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Oscar Flores Gonzalez",
+		"description": "",
+		"technologies": ["android", "javascript", "java", "html5"]
+	}, {
+		"username": "jmhern",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Jorge Hernandez",
+		"description": "",
+		"technologies": ["android", "java", "html5"]
+	}, {
+		"username": "HTMLWarriors",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Daniel Loera",
+		"description": "",
+		"technologies": ["android", "java", "html5"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Fall 2015 hackNY Student Hackathon",
+	"winner": false,
+	"name": "imagely",
+	"blurp": "An image-based language learning web app",
+	"description": "Inspiration We believe that image-based word associations is a powerful language learning tool. Nobody ever learns a new language using just a plain dictionary. We hope to make the process of learning a new language much easier for non-native speakers (and fun) through this web app. What it does Using Clarify\u0027s powerful image recognition system, the web app retrieves words associated with the image url inputed by the user. It then uses Yandex translation API to translate those words into a language of the user\u0027s choice. Current supported languages are: Spanish, Russian, Vietnamese, Dutch and Hebrew. How I built it We use the MEAN stack to build this web app. Challenges I ran into The Yandex API calls only accept one word at a time. We needed to stringify our results to avoid expensive http calls for every word associated with an image url Accomplishments that I\u0027m proud of We made a complete project utilizing 2 APIs. What I learned Angular.js is a pain. What\u0027s next for imagely We plan to finish the quiz mode for our web app since memory retention is important in language learning. We also want to implement authentication system to ensure personalized user experience as well as possible social network integration aspect. Built With javascript css html angular.js node.js clarifai yandex Try it out github.com",
+	"technologies": ["javascript", "css", "html", "angular.js", "node.js", "clarifai", "yandex"],
+	"authors": [{
+		"username": "hieusydo",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 2,
+		"name": "Hieu Do",
+		"description": "",
+		"technologies": ["mean", "c++"]
+	}, {
+		"username": "tlaminator",
+		"wins": 0,
+		"projects": 6,
+		"hackathons": 7,
+		"name": "Thomas Lam",
+		"description": "Curious programmer, computer scientist in the making",
+		"technologies": ["java", "objective-c", "node.js", "angular.js", "mongodb", "javascript", "express.js"]
+	}, {
+		"username": "ann0605",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Pham Phuong Anh Dang",
+		"description": "",
+		"technologies": ["javascript", "java", "ios", "ruby-on-rails", "html5", "python"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "Hack for the Homeless 2015",
+	"winner": false,
+	"name": "Job For The Homeless",
+	"blurp": "Job search for the Homeless",
+	"description": "There are no / very few mobile apps and online services that are directly useful for less fortunate people in job search. Our Android app pulls relevant job postings from Craigslist and automates application process by replying to the job poster with information regarding profile, skill set, ratings, etc,. Our app also helps those who wants to get work done quickly by looking for matching skill set nearby using geo-location. Once a job is posted, our app notifies all the homeless people nearby within a certain radius and once a person accepts to complete the work, he will be routed to the work location using a built-in map. Once the work is done, the job poster will be able to rate and review the user. This app can be used by organizations like SF Daily Labor to reach more people who are seeking work opportunities and those who wants to get work done. Built With android javascript python parse rest pyth Try it out github.com",
+	"technologies": ["android", "javascript", "python", "parse", "rest", "pyth"],
+	"authors": [{
+		"username": "shah0516",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 4,
+		"name": "Mahboob Shah Mohammed",
+		"description": "",
+		"technologies": ["android", "java", "python", "json", "linux", "maven", "mysql", "mongodb", "postgresql"]
+	}, {
+		"username": "sritej",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 4,
+		"name": "Sri Tej Narala",
+		"description": "",
+		"technologies": ["java", "android", "php", "javascript"]
+	}, {
+		"username": "sravan2j",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 5,
+		"name": "Sravan Kumar",
+		"description": "",
+		"technologies": []
+	}, {
+		"username": "abhinav-b",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 5,
+		"name": "Abhinav Belide",
+		"description": "",
+		"technologies": ["android", "javascript", "java", "css", "html5", "python"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "HackTX",
+	"winner": false,
+	"name": "Twittify",
+	"blurp": "Creates a Spotify playlist based on tweets",
+	"description": "Inspiration We thought it would be really cool if there was a program that could scan tweets of your favorite Twitter friends or celebrities and helps you discover music that everyone is listening to! What it does It scans tweets of a twitter user, pulls out all the hashtags and then creates a playlist and adds songs that match the list of hashtags to your newly created playlist. How we built it We used the Twitter API and Spotify API in a Node.js module. Challenges we ran into Problems with asynchronous requests causing random ordering. Also we had problems with authorization when using Twitter and Spotify\u0027s APIs. Lastly we had a little bit of trouble with integration because all 3 of us worked on different pieces and had to put them together in the end and make them work. Accomplishments that we\u0027re proud of This whole project! Being able to scan tweets, and being able to create Spotify playlists, search for songs, and add them to a playlist. What we learned Learned two different APIs in one day as well as JavaScript, Node.js, and Express.js. What\u0027s next for Twitify We want to work on making the code more sophisticated using machine learning so it can actually scan tweets to find song titles, albums, artists, or lyrics, and then use these to create a playlist that is a more accurate representation of the tweeter\u0027s interests. Built With node.js twitter spotify express.js Try it out github.com",
+	"technologies": ["node.js", "twitter", "spotify", "express.js"],
+	"authors": [{
+		"username": "amro",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Amro Shohoud",
+		"description": "",
+		"technologies": ["javascript", "java", "jquery", "python"]
+	}, {
+		"username": "antrodriguez",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Anthony Rodriguez",
+		"description": "",
+		"technologies": ["javascript"]
+	}, {
+		"username": "victormaes",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Victor Maestas",
+		"description": "",
+		"technologies": ["javascript", "css", "html5"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "CHIMEHACK 2",
+	"winner": false,
+	"name": "KindKeyboard",
+	"blurp": "Promote healthy communication one word at a time.",
+	"description": "Inspiration Our inspiration came from the non-profit organizations who work on raising awareness around gender inequality and abusive behavior. Problem Statement It is all too easy to send unhealthy communications without realizing that it might be hurtful. Communications that infer gender inequality or contain derogatory sentiments are rampant. How it works The KindKeyboard is a 3rd-party mobile keyboard that detects unhealthy language, alerts the user of this language, and allows the users to make changes. We gamified the application to incentivize user to use it more. The healthier a user communicates, the higher he/she will rank on our leaderboard. It educates people whenever they are typing and changes behavior over time. Built With ios bootstrap html5 css3 node.js Try it out www.kindkeyboard.com docs.google.com github.com",
+	"technologies": ["ios", "bootstrap", "html5", "css3", "node.js"],
+	"authors": [{
+		"username": "adarshu",
+		"wins": 6,
+		"projects": 16,
+		"hackathons": 62,
+		"name": "Adarsh Uppula",
+		"description": "",
+		"technologies": ["javascript", "html5", "php", "android", "web", "ios", "windows-phone"]
+	}, {
+		"username": "jenniferli23",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Jennifer Li",
+		"description": "Marketing + Product + Engineering background. Learning Android Development. Currently studying at CMU and interning at AppDynamics.",
+		"technologies": ["android", "javascript", "java", "html5"]
+	}, {
+		"username": "Megpie",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Megan Pieczynski",
+		"description": "Computer Science student at Cal Poly, SLO",
+		"technologies": ["java", "python"]
+	}, {
+		"username": "Shaunbjohnson",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 2,
+		"name": "Shaun Johnson",
+		"description": "Product @PayPal",
+		"technologies": ["full-stack", "node.js", "mongodb"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Fall 2015 hackNY Student Hackathon",
+	"winner": false,
+	"name": "Assay",
+	"blurp": "Assay lets you checkout the percentage of people suffer from contagious diseases in a city or country.",
+	"description": "Inspiration I care about my health very much, and I would love to understand how healthy is a city or country I\u0027m travelling to beforehand and therefore I was inspired to develop Assay. What it does Its an android app, which is straight to the point, where its slogan say; checkout health in city or country. Using assay you can find how healthy specific city or country in the world by giving you the percentage of people whom live there and suffer from contagious diseases, which is what we care about the most, i.e. if there is anything would affect us. How I built it I used OpenData Api, which provides me with up to date statistics of cities and countries health. Challenges I ran into I had severe headache and got lost in the subway, where I ended up in the hackathon venue very late and missed all of the introductory stuff, since I\u0027m from the UK and its my first time to be in USA, I started hacking almost half way to the deadline. Accomplishments that I\u0027m proud of With the severe headache and exhausted body of mine, managed to pull app working with decent logo. What I learned I learnt about this OpenDataApi http://eulife.appchallenge.net/api-explorer/ and https://ukdataservice.3scale.net/ I learnt about statistics and how to produce human-friendly information from chunk of numbers. I learnt how working under severe headache and exhausted can be done. I learnt more android development and Api Integration What\u0027s next for Assay Provide a more detailed summary on type of diseases etc. Built With android java xml eulife opendataapi json Try it out github.com zack.today",
+	"technologies": ["android", "java", "xml", "eulife", "opendataapi", "json"],
+	"authors": [{
+		"username": "ZackToday",
+		"wins": 1,
+		"projects": 10,
+		"hackathons": 12,
+		"name": "Zakaria Abushima",
+		"description": "Computer Science Student Science Engineering Futures Programme Ambassador at MMU and Ambassador at STEMNET",
+		"technologies": ["android", "javascript", "php", "java", "bloomberg", "html5", "html", "css3", "css", "w3c-xhtml-validator", "c", "linux-kernel", "kernel", "drivers"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "Simmons SharkHack",
+	"winner": false,
+	"name": "DoggieTracks",
+	"blurp": "Keeping you and your dog healthy and happy by tracking daily activities on your mobile device",
+	"description": "DoggieTracks promotes an engaged interaction between you and a beloved member of your family, your dog - in order to keep you both happy and healthy. More Information: https://docs.google.com/presentation/d/1xRmIAZsVgD-5GzyVvfmNcUs10Ln7ZsSehhCfcUXRWco/edit?usp\u003dsharing Built With html javascript css bootstrap jquery mongoose Try it out github.com",
+	"technologies": ["html", "javascript", "css", "bootstrap", "jquery", "mongoose"],
+	"authors": [{
+		"username": "Ludgate",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Megan Ludgate",
+		"description": "",
+		"technologies": ["java", "python", "r"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Smart Transportation and Energy Hackathon",
+	"winner": false,
+	"name": "Meter Edison",
+	"blurp": "Know what your appliances ( washing-mashine / dish-washer / coffe-mashine consume in which program ) informed my data",
+	"description": "Inspiration Want to know what is the difference in power-consumption between Water-cooker 1L vs 0.5L Washing mashine eco vs 90° vs 60° Monitor dark background vs light bg Dish-washer 30° vs 60° Big cupa coffee vs small cupa coffee What it does measure and collect power consumption data How I built it Digged into/played with Intel Edison and wrote some code ;-) Challenges I ran into Edimax plug ( sensor ) only 2.4 Ghz - wifi here only ( working ) 5Ghz -\u003e solved via tethering Java bindings did not work for me -\u003e wasted a lot of time and then used python to interface Edison Problems compiling upm ... Accomplishments that I\u0027m proud of Kotlin on Edison ( think nobody has done this yet ) What I learned Edison is a cool platform What\u0027s next for Meter Edison Data analysis / Visualisation - more measurements - detect patterns - replace power sensor ( no more CPU redundancy - just use ADC of Edison ) Built With kotlin-on-intel-edison Try it out github.com",
+	"technologies": ["kotlin-on-intel-edison"],
+	"authors": [{
+		"username": "luftzug",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 1,
+		"name": "Marcus Bohlander",
+		"description": "filmmaker / designer",
+		"technologies": ["css", "html5", "photoshop", "premiere", "film"]
+	}, {
+		"username": "ligi",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "marcus ligi",
+		"description": "yes I am Bio",
+		"technologies": ["android", "android-studio"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Hack the North 2015",
+	"winner": false,
+	"name": "Receipt Sheep",
+	"blurp": "Super quick way to document and administer receipts",
+	"description": "Inspiration People typically save them and give them to an accountant to process or do it themselves. Ends up costing more or taking more time which could be used by other things. Have to manually put in the ledger account, transaction amounts and approve them. Lack of cohesiveness between accountants and small business owners or people submitting receipts and approving them Takes time to look through all the receipts individually to determine whether or not they meet the standards What it does Receipt Sheep saves people time when needing to file and keep records of receipts A mobile focused interface to easily take records of receipts on the go You take pictures of the receipts and then using OCR, it is parsed and all the useful information is grabbed and automatically populated Receipts are then submitted into a queue for view, editing and approval at any time They can quickly do this by viewing an image of the receipt, the amounts associated with it, the account it will be going into and any other important details The right people can go into the queue and quickly and seamlessly go through every receipt. Can swipe left or right to either approve or send for an escalated review or view more details When a receipt is approved, a journal entry is automatically submitted to an Intuit account through the API For those businesses using Intuit, this works a lot better than the other solutions out there How I built it Used Node.js backend, JS on the front end,h the use of complex algorithms and machine learning to grab key items from receipts with OCR Challenges I ran into Getting the OCR to be accurate enough to pull and populate fields with the right data Working with third party finance APIs and integrations Accomplishments that I\u0027m proud of Application that achieves our end result of being able to seamlessly allow people to handle receipts What\u0027s next for Receipt Sheep Iterating on the OCR algorithms to be as accurate as possible. It already performs better than many industry leading applications and grabs receipt line items. Later on we want to be able to source the account category and other fields automatically Built With node.js javascript intuit html5 css3 express.js Try it out receiptsheep.co github.com",
+	"technologies": ["node.js", "javascript", "intuit", "html5", "css3", "express.js"],
+	"authors": [{
+		"username": "justinthec",
+		"wins": 0,
+		"projects": 2,
+		"hackathons": 0,
+		"name": "Justin Chan",
+		"description": "",
+		"technologies": []
+	}, {
+		"username": "kyewei",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 0,
+		"name": "Kye Wei",
+		"description": "",
+		"technologies": []
+	}, {
+		"username": "RandomMaker",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 2,
+		"name": "Brandon Chow",
+		"description": "",
+		"technologies": ["web", "ui", "ux"]
+	}, {
+		"username": "lauriermantel",
+		"wins": 0,
+		"projects": 3,
+		"hackathons": 3,
+		"name": "Laurier Mantel",
+		"description": "",
+		"technologies": ["python", "c++", "html5", "css3", "javascript", "php", "asp.net", "c#", "jquery", "mysql"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Samsung Gear App Challenge",
+	"winner": true,
+	"name": "Travel Translator for Gear",
+	"blurp": "voice translation, voice recognition, translator",
+	"description": "Top rated app on the Galaxy Gear 2 market ! We have uploaded the application 2 days before contest deadline and here is what the real users from Samsung Galaxy Apps are saying about this app: Travel Translator for Gear is created to improve your everyday conversations in different languages. Travel, business meetings and language learning have never been so simple. Do you want to communicate in a foreign language? Do you need to understand what you are listening to in a foreign language? Travel Translator works in both directions, and al at your fingertips! Great graphics designed for Galaxy Gear 2 Travel Translator translates spoken phrases with great accuracy, all managed with a clear and intuitive interface. You can also listen to the translation or use it in other apps. Travel Translator uses Nuance professional translation services to be really responsive and accurate. There are 37 languages available, together with their variants. Fantastically designed control elements! Take a look: Travel Translator lets you translate between any two languages you select, very easily, due to its simple structure and a great usability. Built With android",
+	"technologies": ["android"],
+	"authors": [{
+		"username": "proexe",
+		"wins": 6,
+		"projects": 8,
+		"hackathons": 5,
+		"name": "ProExe",
+		"description": "",
+		"technologies": ["android", "hardware", "ios", "windows-phone"]
+	}]
+}, {
+	"likes": 1,
+	"hackathon": "HackTX",
+	"winner": false,
+	"name": "Get High",
+	"blurp": "Toss your phone higher to get a higher score.",
+	"description": "Inspiration Because why not. Built With swift",
+	"technologies": ["swift"],
+	"authors": [{
+		"username": "tnarla",
+		"wins": 1,
+		"projects": 10,
+		"hackathons": 8,
+		"name": "Trushitha Narla",
+		"description": "",
+		"technologies": ["javascript", "html", "css", "objective-c", "angular.js", "unity", "c#", "android", "ios", "web"]
+	}, {
+		"username": "vidhuappalaraju",
+		"wins": 0,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Vidhu Appalaraju",
+		"description": "",
+		"technologies": ["ios"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Hack the North 2015",
+	"winner": true,
+	"name": "Tripio",
+	"blurp": "Tripio, is the AirBnB to find a local travel guide.",
+	"description": "Tripio, is the AirBnB to find a local travel guide. It’s a web platform where travelers can meet local people, based on common interests, and have a personalized tour depending on their own flexible budget. Built With javascript c# .net angular.js Try it out www.tripio.co",
+	"technologies": ["javascript", "c#", ".net", "angular.js"],
+	"authors": [{
+		"username": "naitik",
+		"wins": 1,
+		"projects": 1,
+		"hackathons": 1,
+		"name": "Naitik Mehta",
+		"description": "",
+		"technologies": []
+	}, {
+		"username": "scanniza",
+		"wins": 1,
+		"projects": 4,
+		"hackathons": 3,
+		"name": "Simon Arneson",
+		"description": "Certified in Application Programming at UCLA. Developer @Capturest. Currently a student of Chalmers University of Technology.",
+		"technologies": ["android", "javascript", "java", "ios", "jquery", "css", "html5", "node.js", "angular.js", "express.js", "mac", "web", "windows", "mongodb"]
+	}, {
+		"username": "Ferosi",
+		"wins": 1,
+		"projects": 4,
+		"hackathons": 4,
+		"name": "Sebastian Sandberg",
+		"description": "",
+		"technologies": ["javascript", "java", "jquery", "css", "html5", "web", "windows", "angular.js", "node.js"]
+	}, {
+		"username": "JohnJ3",
+		"wins": 1,
+		"projects": 2,
+		"hackathons": 2,
+		"name": "John Johansson",
+		"description": "",
+		"technologies": []
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "TechCrunch Disrupt EU Hackathon 2014: London",
+	"winner": false,
+	"name": "Brief",
+	"blurp": "Brief moments with new people, when you are available.",
+	"description": "Brief Brief is an app to showcase your available time slots in your schedule. You fill in your location and time, and then you are matched with people that also are up for a brief moment. The matching The matching works so that you choose which person you want to meet, and they have to want to choose you. The midpoint recommendation The midpoint of your locations is then calculated and a coffee shop at that location is then presented to you through foursquare. Target group People with busy schedules, but who might have that extra slot where they would like to meet up with professional people. By using only LinkedIn as a login, we want to keep it professional. Built With esri foursquare heroku javascript jquery linkedin node.js passport web Try it out brief-c9-scanniza.c9.io",
+	"technologies": ["esri", "foursquare", "heroku", "javascript", "jquery", "linkedin", "node.js", "passport", "web"],
+	"authors": [{
+		"username": "Ferosi",
+		"wins": 1,
+		"projects": 4,
+		"hackathons": 4,
+		"name": "Sebastian Sandberg",
+		"description": "",
+		"technologies": ["javascript", "java", "jquery", "css", "html5", "web", "windows", "angular.js", "node.js"]
+	}, {
+		"username": "scanniza",
+		"wins": 1,
+		"projects": 4,
+		"hackathons": 3,
+		"name": "Simon Arneson",
+		"description": "Certified in Application Programming at UCLA. Developer @Capturest. Currently a student of Chalmers University of Technology.",
+		"technologies": ["android", "javascript", "java", "ios", "jquery", "css", "html5", "node.js", "angular.js", "express.js", "mac", "web", "windows", "mongodb"]
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "Big Travel Data Hackathon",
+	"winner": true,
+	"name": "flightR",
+	"blurp": "",
+	"description": "flightR visualizes the actual ticket prices and the search results for tickets in a given time period. It is designed to be user friendly and interactive! The tool provides a windowing method to correlate the date of the flight to the price and the time of the day it was taken.",
+	"technologies": [],
+	"authors": [{
+		"username": "oshanisenevi3549",
+		"wins": 1,
+		"projects": 3,
+		"hackathons": 8,
+		"name": "Oshani Seneviratne",
+		"description": "",
+		"technologies": []
+	}, {
+		"username": "thilankawillbe",
+		"wins": 1,
+		"projects": 1,
+		"hackathons": 6,
+		"name": "Thilanka Munasinghe",
+		"description": "",
+		"technologies": []
+	}]
+}, {
+	"likes": 3,
+	"hackathon": "HackTX",
+	"winner": false,
+	"name": "Scribe",
+	"blurp": "Find exactly where in your textbook your lecture is referring to while you watch!",
+	"description": "Inspiration Web-based lectures are becoming a more common occurrence in college campus\u0027 across the United States. We wanted to build a tool that will help significantly in students\u0027 learning experiences. Scribe accomplishes this by allowing students to find exactly where in the textbook that the web lecture points to, thus allowing them to read along before, during, or after the lecture and thereby enhance their ability to learn. What it does Scribe is a Google Chrome extension that takes the lecture video you are watching in Youtube and finds the exact spot in the textbook that the lecture is talking about. This can be as exact as the section or page the lecture is discussing, all in real time. How I built it Scribe is built on a java and python backend, powered by a java server and displayed with HTML, CSS, and Javascript. We used the IBM Bluemix API to convert the audio from the Youtube files to text, and then we parsed through the text and found its location in the textbook with Microsoft Azure. Challenges I ran into Our main challenge was trying to accomplish everything we wanted to in the allotted amount of time. One of the first problems we encountered was trying to get IBM Bluemix to return the correct data. It was found to be a parameter error after hours of debugging and talking to the IBM mentors, we finally fixed it. We also ran into trouble creating our extension and getting our hack to display, but after some careful research, we fixed that too. Accomplishments that I\u0027m proud of We\u0027re mainly proud of finishing our project. Our hack came down to the wire, and we were still working on it with 15 minutes left until submission. It was very fulfilling to put up a full-stack hack that not only functions, but could prove useful in the future. What I learned We learned a lot about IBM Bluemix, Microsoft Azure, and creating Chrome extensions. We even got a chance to implement Azure\u0027s machine learning. Even though it wasn\u0027t a big part of our final product, we did experiment with its machine learning to pick out key words from the lecture. What\u0027s next for Scribe Scribe currently only works for Youtube videos and Computer Science lectures. We\u0027d like to be able to expand Scribe to cover other mediums like Vimeo and other subjects such as History and Math. Built With java python javascript html css bluemix azure",
+	"technologies": ["java", "python", "javascript", "html", "css", "bluemix", "azure"],
+	"authors": [{
+		"username": "twistedladder",
+		"wins": 1,
+		"projects": 3,
+		"hackathons": 2,
+		"name": "Gene Hsu",
+		"description": "",
+		"technologies": ["java", "ios", "python", "windows-movie-maker", "microsoft-office", "matlab", "context.io"]
+	}, {
+		"username": "wynd07",
+		"wins": 8,
+		"projects": 13,
+		"hackathons": 10,
+		"name": "YuXuan (Andrew) Liu",
+		"description": "Electrical Engineering and Computer Science at the University of California, Berkeley",
+		"technologies": ["signal-processing", "ios"]
+	}, {
+		"username": "shaoandrew",
+		"wins": 1,
+		"projects": 5,
+		"hackathons": 4,
+		"name": "Andrew Shao",
+		"description": "",
+		"technologies": ["javascript", "java", "python", "ruby-on-rails", "flask"]
+	}, {
+		"username": "williamvwang",
+		"wins": 1,
+		"projects": 3,
+		"hackathons": 2,
+		"name": "William Wang",
+		"description": "CS \u002718, Rice University",
+		"technologies": ["java", "python", "ruby", "html", "javascript", "photoshop", "vegas"]
+	}, {
+		"username": "renxinhe",
+		"wins": 5,
+		"projects": 10,
+		"hackathons": 11,
+		"name": "Xinhe Ren",
+		"description": "",
+		"technologies": ["java", "python", "arduino", "azure", "sql", "scheme", "unix", "youtube", "adobe-premiere", "raspberry-pi"]
+	}]
+}]
