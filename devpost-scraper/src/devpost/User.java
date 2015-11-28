@@ -6,6 +6,8 @@ import org.jsoup.nodes.Element;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 //Unused class, for future expansions
@@ -59,18 +61,24 @@ public class User {
     public void getUser(String url) throws IOException {
         String[] tmp = url.split("/");
         username = tmp[tmp.length - 1];
-        Document user = Jsoup.connect(url).timeout(10000).get();
-        wins = user.select(".winner").size();
         try {
-            projects = Integer.parseInt(user.select("li:contains(Project) .totals").text());
-        } catch (Exception ignored) {
+            Document user = Jsoup.connect(url).timeout(10000).get();
+            wins = user.select(".winner").size();
+            try {
+                projects = Integer.parseInt(user.select("li:contains(Project) .totals").text());
+            } catch (Exception ignored) {
+            }
+            try {
+                hackathons = Integer.parseInt(user.select("li:contains(Hackathon) .totals").text());
+            } catch (Exception ignored) {
+            }
+            name = user.select("#portfolio-user-name").first().ownText();
+            description = user.select("#portfolio-user-bio").first().text();
+            technologies.addAll(user.select(".cp-tag").stream().map(Element::text).collect(Collectors.toList()));
+        } catch (IOException e) {
+            Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + url);
+            Logger.getGlobal().log(Level.WARNING, e.getMessage());
+            getUser(url); //Retry damn it!
         }
-        try {
-            hackathons = Integer.parseInt(user.select("li:contains(Hackathon) .totals").text());
-        } catch (Exception ignored) {
-        }
-        name = user.select("#portfolio-user-name").first().ownText();
-        description = user.select("#portfolio-user-bio").first().text();
-        technologies.addAll(user.select(".cp-tag").stream().map(Element::text).collect(Collectors.toList()));
     }
 }
