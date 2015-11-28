@@ -11,12 +11,12 @@ import java.util.logging.Logger;
 public class Scraper {
     public static void main(String[] args) {
         try {
-            FileWriter out = new FileWriter("projects.json");
+            FileWriter out = new FileWriter("projects.json", true);
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
 
             //Load first page
-            ProjectsPage page = new ProjectsPage("http://devpost.com/software/newest");
+            ProjectsPage page = new ProjectsPage("http://devpost.com/software/popular");
 
             do {
                 //Process current page
@@ -25,7 +25,7 @@ public class Scraper {
                         Project project = new Project(p);
                         //System.out.println(project.getLikes());
                         System.out.println(gson.toJson(project)); //debug purposes only #TODO remove
-                        out.write(gson.toJson(project));
+                        out.write(gson.toJson(project) + '\n');
                     } catch (Exception e) {
                         Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + p);
                     }
