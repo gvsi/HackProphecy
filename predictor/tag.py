@@ -1,6 +1,7 @@
 import sys
 import operator
 import re
+import nltk
 from nltk.stem.wordnet import WordNetLemmatizer
 
 lmtzr = WordNetLemmatizer()
@@ -38,6 +39,13 @@ def filter_stop_words(freq):
 		if word in stop_words:
 			freq.pop(word, None)
 	return freq
+
+
+def count_words(text):
+	freq = filter_stop_words(word_filter(word_freq(text), 2))
+	freq_sorted = sorted(freq.iteritems(), key=operator.itemgetter(1))
+	return freq_sorted
+
 
 def main():
 	try:
