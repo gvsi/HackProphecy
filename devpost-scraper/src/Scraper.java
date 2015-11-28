@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class Scraper {
     public static void main(String[] args) {
         try {
-            FileWriter out = new FileWriter("projects.json", true);
+            FileWriter out = new FileWriter("projects.json");
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
 
@@ -25,7 +25,7 @@ public class Scraper {
                         Project project = new Project(p);
                         //System.out.println(project.getLikes());
                         System.out.println(gson.toJson(project)); //debug purposes only #TODO remove
-                        out.write(gson.toJson(project) + '\n');
+                        out.write(gson.toJson(project) + ",\n");
                     } catch (Exception e) {
                         Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + p);
                     }
