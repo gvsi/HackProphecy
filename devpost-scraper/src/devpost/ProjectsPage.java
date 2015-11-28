@@ -43,6 +43,8 @@ public class ProjectsPage {
         } catch (IOException e) {
             //e.printStackTrace();
             Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + url);
+            Logger.getGlobal().log(Level.WARNING, e.getMessage());
+            getPage(url); //Retry damn it!
         }
     }
 }
