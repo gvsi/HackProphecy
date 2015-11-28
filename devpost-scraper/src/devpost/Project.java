@@ -6,8 +6,6 @@ import org.jsoup.nodes.Element;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class Project {
@@ -20,17 +18,18 @@ public class Project {
     private ArrayList<String> technologies = new ArrayList<>();
     private ArrayList<String> authors = new ArrayList<>();
 
+
+    public Project(String url) throws IOException {
+        getProject(url);
+    }
+
+
     public String getBlurp() {
         return blurp;
     }
 
     public String getName() {
         return name;
-    }
-
-
-    public Project(String url) {
-        getProject(url);
     }
 
     public int getLikes() {
@@ -46,25 +45,19 @@ public class Project {
         return description;
     }
 
-
-    public void getProject(String url) {
+    public void getProject(String url) throws IOException {
+        Document projectPage = Jsoup.connect(url).timeout(10000).get();
+        name = projectPage.select("#app-title").first().text();
+        blurp = projectPage.select("#app-title ~ p.large").first().text();
+        likes = projectPage.select(".software-likes .side-count").isEmpty() ? 0 : Integer.parseInt(projectPage.select(".software-likes .side-count").first().text());
+        description = projectPage.select("div#app-details-left").first().text();
+        technologies.addAll(projectPage.select(".cp-tag.recognized-tag").stream().map(Element::text).collect(Collectors.toList()));
         try {
-            Document projectPage = Jsoup.connect(url).get();
-            name = projectPage.select("#app-title").first().text();
-            blurp = projectPage.select("#app-title ~ p.large").first().text();
-            likes = projectPage.select(".software-likes .side-count").isEmpty() ? 0 : Integer.parseInt(projectPage.select(".software-likes .side-count").first().text());
-            description = projectPage.select("div#app-details-left").first().text();
-            technologies.addAll(projectPage.select(".cp-tag.recognized-tag").stream().map(Element::text).collect(Collectors.toList()));
-            try {
-                hackathon = projectPage.select(".software-list-content > p").text();
-            } catch (Exception e) {
-                //NullPointerException is expected when not entered in hackathon;
-            }
-            winner = !projectPage.select(".winner").isEmpty();
-            authors.addAll(projectPage.select(".software-team-member :not(figure) > .user-profile-link").stream().map(Element::text).collect(Collectors.toList()));
-        } catch (IOException e) {
-            e.printStackTrace();
-            Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + url);
+            hackathon = projectPage.select(".software-list-content > p").text();
+        } catch (Exception e) {
+            //NullPointerException is expected when not entered in hackathon;
         }
+        winner = !projectPage.select(".winner").isEmpty();
+        authors.addAll(projectPage.select(".software-team-member :not(figure) > .user-profile-link").stream().map(Element::text).collect(Collectors.toList()));
     }
 }

@@ -30,25 +30,18 @@ public class ProjectsPage {
         return nextPage;
     }
 
-    public void setNextPage(String nextPage) {
-        this.nextPage = nextPage;
-    }
-
     public ArrayList<String> getProjectURLs() {
         return projectURLs;
     }
 
-    public void setProjectURLs(ArrayList<String> projectURLs) {
-        this.projectURLs = projectURLs;
-    }
 
     public void getPage(String url) {
         try {
-            Document directoryPage = Jsoup.connect(url).get();
+            Document directoryPage = Jsoup.connect(url).timeout(10000).get();
             projectURLs.addAll(directoryPage.select(".link-to-software").stream().map(projectLinks -> projectLinks.attr("href")).collect(Collectors.toList()));
             nextPage = "http://devpost.com/" + directoryPage.select(".next.next_page").first().child(0).attr("href");
         } catch (IOException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
             Logger.getGlobal().log(Level.SEVERE, "Unable to fetch " + url);
         }
     }
