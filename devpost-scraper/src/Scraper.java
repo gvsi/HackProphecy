@@ -16,7 +16,7 @@ public class Scraper {
     static int maxPage = 9999;
     static {
         try {
-            out = new FileWriter("projects_with_users.json", true);
+            out = new FileWriter("projects_with_users.json");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -27,7 +27,7 @@ public class Scraper {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(10);
         int startPage = (args.length > 0 ? Integer.parseInt(args[0]) : 0);
-        maxPage = startPage + 376;
+        //maxPage = startPage + 376;
         //Load first page
         ProjectsPage page = new ProjectsPage("http://devpost.com/software/popular" + (startPage>0 ? "?page=" +startPage : ""));
         do {
@@ -48,6 +48,14 @@ public class Scraper {
             //Start loop for next page
             page = new ProjectsPage(page.getNextPage());
         } while (page.hasNext() && Integer.parseInt(page.getNextPage().split("\\?page=")[1])<maxPage);
+    }
+
+    public static synchronized void writeFile(String s) {
+        try {
+            out.write(s);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static class ProjectRunner implements Runnable {
