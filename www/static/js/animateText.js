@@ -9,7 +9,7 @@ writeStyles = function (message, index, interval) {
             pre = document.getElementById('debuginfo');
             pre.scrollTop = pre.scrollHeight;
             writeStyleChar(message[index++]);
-            return setTimeout(function () {
+            return anim=setTimeout(function () {
                 return writeStyles(message, index, interval);
             }, interval);
         }

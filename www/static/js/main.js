@@ -3,7 +3,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+var anim;
 (function() {
 
 	"use strict";
@@ -140,10 +140,10 @@
 			// Events.
 			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
-
+                    console.log(event);
 					event.stopPropagation();
 					event.preventDefault();
-
+                    
 					// Hide message.
 						$message._hide();
 
@@ -154,16 +154,25 @@
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
-
+                                $.ajax({url:'/predict/'+$('input#url').val()}).done(
+                                    function(json){
+                                        clearInterval(anim);
+                                        $('#debuginfo').text('');
+                                        writeStyles(json['message']!="null"?json['message']:"Error project not found",0,time);
+                                        // Show message.
+                                        if (json['win']){
+                                            $message._show('success', 'Win!');
+                                        } else {
+                                            $message._show('failure', 'Lose');
+                                        }
+                                    });
 							// Reset form.
 								$form.reset();
 
 							// Enable submit.
 								$submit.disabled = false;
 
-							// Show message.
-								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
+							
 
 						}, 750);
 
