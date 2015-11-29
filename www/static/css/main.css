@@ -9,34 +9,7 @@
 
 /* Reset */
 
-pre {
-    position: fixed;
-    width: 48%;
-    top: 20%;
-    bottom: 15%;
-    left: 50%;
-    transition: left 500ms;
-    color: #4cc600;
-    border: none;
-    padding: 24px 12px;
-    box-sizing: border-box;
-    border-radius: 3px;
-    /*box-shadow: 0px 4px 0px 2px rgba(0,0,0,0.1);*/
-    font-family: monospace, monospace;
-    font-size: 10px;
-    white-space: pre-wrap;       /* CSS 3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    overflow-x: hidden;
-    overflow-y: auto;
-    display: block;
-    white-space: pre;
-    margin: 1em 0px 1em;
-    line-height: 1.4;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 8px;
@@ -652,8 +625,10 @@ pre {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 			height: 2.75em;
-			line-height: 2.75em;
+			line-height: 1.5em;
 			opacity: 0;
+            font-size: 2em;
+            margin-left: -0.5em;
 		}
 
 			form .message:before {
@@ -663,10 +638,12 @@ pre {
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
+                margin-left: -0.5em;
 			}
 
 			form .message:before {
 				margin-right: 0.5em;
+                margin-left: -0.5em;
 			}
 
 			form .message.visible {
@@ -690,7 +667,7 @@ pre {
 			}
 
 				form .message.failure:before {
-					content: '\f119';
+					content: '\f00d';
 				}
 
 	label {
@@ -1235,3 +1212,31 @@ pre {
 			}
 
 		}
+pre {
+    position: fixed;
+    width: 48%;
+    top: 20%;
+    bottom: 15%;
+    left: 50%;
+    transition: left 500ms;
+    color: #4cc600;
+    border: none;
+    padding: 2em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    /*box-shadow: 0px 4px 0px 2px rgba(0,0,0,0.1);*/
+    font-family: monospace, monospace;
+    font-size: 0.8em;
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    white-space: pre;
+    margin: 1em 0px 1em;
+    line-height: 1.4;
+    -webkit-font-smoothing: subpixel-antialiased;
+}

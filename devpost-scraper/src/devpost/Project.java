@@ -20,6 +20,7 @@ public class Project {
     private String description = "";
     private ArrayList<String> technologies = new ArrayList<>();
     private ArrayList<User> authors = new ArrayList<>();
+    private String id ="";
 
 
     public Project(String url) throws IOException {
@@ -52,6 +53,11 @@ public class Project {
         try {
             Document projectPage = Jsoup.connect(url).timeout(10000).get();
             name = projectPage.select("#app-title").first().text();
+            try {
+                id = url.split("software/")[1];
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             try {
                 blurp = projectPage.select("#app-title ~ p.large").first().text();
             } catch (Exception ignored) {

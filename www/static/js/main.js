@@ -129,7 +129,7 @@ var anim;
 
 					window.setTimeout(function() {
 						$message._hide();
-					}, 3000);
+					}, 20000);
 
 				};
 
@@ -153,28 +153,27 @@ var anim;
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
-						window.setTimeout(function() {
-                                $.ajax({url:'/predict/'+$('input#url').val()}).done(
-                                    function(json){
-                                        clearInterval(anim);
-                                        $('#debuginfo').text('');
-                                        writeStyles(json['message']!="null"?json['message']:"Error project not found",0,time);
-                                        // Show message.
-                                        if (json['win']){
-                                            $message._show('success', 'Win!');
-                                        } else {
-                                            $message._show('failure', 'Lose');
-                                        }
-                                    });
-							// Reset form.
-								$form.reset();
+						
+                        $.ajax({url:'/predict/'+$('input#url').val()}).done(
+                            function(json){
+                                clearInterval(anim);
+                                $message._hide
+                                $('#debuginfo').text('');
+                                writeStyles(json['message']!="null"?json['message']:"Error project not found",0,time);
+                                // Show message.
+                                if (json['win']){
+                                    $message._show('success', 'Win!');
+                                } else {
+                                    $message._show('failure', 'Lose');
+                                }
+                            });
+                    // Reset form.
+                        $form.reset();
 
-							// Enable submit.
-								$submit.disabled = false;
+                    // Enable submit.
+                        $submit.disabled = false;
 
-							
-
-						}, 750);
+						
 
 				});
 
