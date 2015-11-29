@@ -18,7 +18,7 @@ def word_freq(text):
 	freq = {}
 	for word in words:
 		word = word.lower()
-		word = lmtzr.lemmatize(word)
+		#word = lmtzr.lemmatize(word)
 		if word in freq.keys():
 			freq[word] += 1
 		else:

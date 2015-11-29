@@ -2,16 +2,22 @@ import json
 from pprint import pprint
 from tag import count_words
 from sets import Set
+import sys
+import random
+from sklearn import svm
+import numpy as np
 
-with open('data.json') as data_file:
+from sklearn.externals import joblib
+
+with open('projects_with_users.json') as data_file:
    data = json.load(data_file)
 
 # pprint([x for x in data if x['winner'] == True])
 # print(len(data))
-
+#random.shuffle(data)
 # Win vector
-win_vector = [1 if x['winner'] else 0 for x in data]
-print(win_vector)
+#win_vector = [1 if x['winner'] else 0 for x in data]
+#print(win_vector)
 
 count_vectors = [count_words(x['description']) for x in data]
 
@@ -23,7 +29,7 @@ for x in count_vectors:
 
 maxOcc = [ ]
 minOcc = [ ]
-for j in range(0, len(words)):
+for j in range(0, len(words) + 3):
 	maxOcc.append(0)
 	minOcc.append(0)
 
@@ -41,10 +47,6 @@ for i in range(0, len(count_vectors)):
 		if cnt < minOcc[j]:
 			minOcc[j] = cnt
 	matrix.append(row)
-			
-for i in range(0, len(matrix)):
-	for j in range(0, len(matrix[i])):
-		matrix[i][j] = float(matrix[i][j]) / maxOcc[j]
 
 row = 0
 for element in data:
@@ -55,15 +57,39 @@ for element in data:
 		nr_wins = nr_wins + author["wins"]
 		nr_projects = nr_projects + author["projects"]
 		nr_hacks = nr_hacks + author["hackathons"]
-	
-	matrix[row].append(float(nr_wins) / nr_projects)
+
+	if nr_projects == 0:
+            matrix[row].append(0)
+        else:
+            matrix[row].append(float(nr_wins) / nr_projects)
 	matrix[row].append(nr_wins)
 	matrix[row].append(nr_hacks)
-	
+
 	row = row + 1
 
-print matrix[0]
-print matrix[1]
-	
-	
+for i in range(0, len(matrix)):
+    for j in range(0, len(matrix[i])):
+        if matrix[i][j] > maxOcc[j]:
+            maxOcc[j] = matrix[i][j]
 
+for i in range(0, len(matrix)):
+    for j in range(0, len(matrix[i])):
+        matrix[i][j] = float(matrix[i][j]) / maxOcc[j]
+
+
+np.savetxt('matrix.txt', win_vector, fmt="%.6f")
+
+data = np.loadtxt('matrix.txt').tolist()
+
+# print(len(win_vector))
+#
+# for i in range(0, len(win_vector)):
+#     if (win_vector[i] != data[i]):
+#         print(i)
+
+# print("prediction:", clf.predict(matrix[-10])[0])
+# print("actual:", win_vector[-10])
+
+
+# print matrix[1]
+#
